@@ -8,3 +8,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "component_common"
 include ':app'
+include ':lib_core'
