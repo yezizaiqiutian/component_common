@@ -18,6 +18,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".logininterceptor.LoginInterceptorActivity" />
+        <activity android:name=".logininterceptor.LoginActivity" />
+        <activity android:name=".logininterceptor.VipActivity" />
+
     </application>
 
 </manifest>
