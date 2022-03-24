@@ -40,6 +40,7 @@ class InterceptorCheck {
     }
 
     //kotlin单例实现方式(第五种)
+    //https://blog.csdn.net/qq_23025319/article/details/107061895
     private object Holder {
         val holder = InterceptorCheck()
     }
