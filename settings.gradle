@@ -10,4 +10,7 @@ dependencyResolutionManagement {
 }
 rootProject.name = "component_common"
 include ':app'
+include ':lib_common'
+
 include ':lib_core'
+project(':lib_core').projectDir = "../component_core/lib_core" as File
