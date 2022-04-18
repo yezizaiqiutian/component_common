@@ -1,16 +1,2 @@
-dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-    repositories {
-        maven { url 'https://maven.aliyun.com/repository/public' }
-        maven { url 'https://maven.aliyun.com/repository/google' }
-        maven { url 'https://jitpack.io' }
-        google()
-        mavenCentral()
-    }
-}
+apply from: '../component_config/lib_config/base_settings.gradle'
 rootProject.name = "component_common"
-include ':app'
-include ':lib_common'
-
-include ':lib_core'
-project(':lib_core').projectDir = "../component_core/lib_core" as File

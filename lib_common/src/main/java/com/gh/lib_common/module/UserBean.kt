@@ -1,4 +1,4 @@
-package com.gh.component_common.logininterceptor
+package com.gh.lib_common.module
 
 /**
  * @author: gh

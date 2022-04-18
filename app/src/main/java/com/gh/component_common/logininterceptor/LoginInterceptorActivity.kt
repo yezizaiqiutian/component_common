@@ -8,6 +8,7 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.gh.component_common.R
+import com.gh.lib_common.module.UserBean
 import com.gh.lib_core.utils.LogUtils
 import com.gh.lib_core.utils.interceptor.CheckStateListener
 import com.gh.lib_core.utils.interceptor.Interceptor
